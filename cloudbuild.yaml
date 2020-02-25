@@ -1,5 +1,4 @@
 steps:
-steps:
 - name: 'gcr.io/cloud-builders.docker'
-  args: ['build', '-t', 'gcr.io/TestProj/TestImage', '.']
+  args: ['build', '-t', 'gcr.io/testproj-268921/TestImage', '.']
   timeout: 500s
